@@ -21,7 +21,7 @@ export default function Projects() {
                         <p className="text-2xl text-white">emotion.</p>
                     </div>
                     <p className="px-2 text-lg">Emotion:</p>
-                    <p className="px-2">An react native app to help keep a track of your emotions daily
+                    <p className="px-2">A react native app to help keep a track of your emotions daily
                         and take a look back on how you've been feeling these past few days.
                     </p>
                 </Card>

@@ -41,7 +41,7 @@ export default function About() {
                 <Card className="h-auto p-2">
                     <p>What I'm listening to right now:</p>
                     {loading ? <p>Hmmm...</p> : <div className="flex justify-start gap-4">
-                        <img src={currentPlaying?.item?.album?.images?.[2]?.url || recentTracks?.track?.album?.images?.[2]?.url} alt={currentPlaying?.item?.name || recentTracks?.track?.name} />
+                        <img src={currentPlaying?.item?.album?.images?.[2]?.url || recentTracks?.track?.album?.images?.[2]?.url} alt={currentPlaying?.item?.name || recentTracks?.track?.name} className="rounded-base" />
                         <div className="flex flex-col justify-between">
                             <p>{currentPlaying?.item?.name || recentTracks?.track?.name}</p>
                             <hr />

@@ -40,8 +40,8 @@
 
 @theme inline {
 
-  --animate-marquee: marquee 10s linear infinite;
-  --animate-marquee2: marquee2 10s linear infinite;
+  --animate-marquee: marquee 16s linear infinite;
+  --animate-marquee2: marquee2 16s linear infinite;
 
   @keyframes marquee {
     0% {
