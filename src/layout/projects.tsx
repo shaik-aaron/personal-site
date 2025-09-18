@@ -11,9 +11,9 @@ export default function Projects() {
                     <div className="bg-[#5e6dff] w-full h-40 flex justify-center items-center">
                         <img src={fave_logo} alt="Fave Logo" height={100} width={100} />
                     </div>
-                    <p className="px-2 text-lg">Fave integrationt test suite:</p>
-                    <p className="px-2">Set up the main intgeration test suite for the fave application.
-                        This includes setting a local server, mocking out authentication, payments, registrations and much more.
+                    <p className="px-2 text-lg">Fave integration test suite:</p>
+                    <p className="px-2">Set up the main integration test suite for the fave application.
+                        This includes setting up a local server, mocking out authentication, payments, registrations and much more.
                     </p>
                 </Card>
                 <Card className="w-full p-0 gap-2 pb-2">
