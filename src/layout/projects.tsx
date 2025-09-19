@@ -6,7 +6,7 @@ export default function Projects() {
     return (
         <Menubar className="block h-auto mt-4 p-4 relative">
             <h1 className="text-2xl mb-4">Projects:</h1>
-            <div className="flex items-center justify-between gap-6">
+            <div className="flex flex-col gap-2 md:flex items-center justify-between gap-6">
                 <Card className="w-full p-0 gap-2 pb-2">
                     <div className="bg-[#5e6dff] w-full h-40 flex justify-center items-center">
                         <img src={fave_logo} alt="Fave Logo" height={100} width={100} />

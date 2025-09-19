@@ -37,7 +37,7 @@ export default function About() {
 
     return (
         <Menubar className="block h-auto mt-4 p-4 relative">
-            <div className="absolute right-2">
+            <div className="block mb-4 md:absolute right-2">
                 <Card className="h-auto p-2">
                     <p>What I'm listening to right now:</p>
                     {loading ? <p>Hmmm...</p> : <div className="flex justify-start gap-4">
@@ -53,7 +53,7 @@ export default function About() {
             <h1 className="text-2xl mb-4">Hello! I'm Aaron!</h1>
             <p className="text-xl mb-1">And I am a:</p>
             <div className="text-lg">
-                <ul className="list-disc list-inside flex gap-2">
+                <ul className="list-disc list-inside flex gap-2 flex-wrap">
                     {jobs.map((job) => (
                         <Badge key={job} variant="neutral" className="bg-background shadow-shadow text-sm">{job}</Badge>
                     ))}
@@ -61,7 +61,7 @@ export default function About() {
             </div >
             <div className="text-lg mt-4">
                 <p className="text-lg mb-1">In my free time, you'll find me either:</p>
-                <ul className="list-disc list-inside flex gap-2">
+                <ul className="list-disc list-inside flex gap-2 flex-wrap">
                     {freeTime.map((time) => (
                         <Badge key={time} variant="neutral" className="bg-background shadow-shadow text-sm">{time}</Badge>
                     ))}

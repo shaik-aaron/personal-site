@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <Menubar className="block h-auto mt-4 p-4 relative">
             <h1 className="text-2xl mb-4">Get in touch!</h1>
-            <div className="flex gap-2">
+            <div className="flex flex-col gap-2 md:flex gap-2">
                 <a href="https://github.com/shaik-aaron" target="_blank">
                     <Button className="bg-background">
                         <Github /> Github
